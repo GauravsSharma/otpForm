@@ -17,10 +17,10 @@ const PhoneOtpForm = () => {
         setOtpFormShow(true);
     }
     const handleSubmit = (otp) => {
+        console.log("i run ");
         setTimeout(() => {
             setIsSignUp(true);
-            toast.success("Success");
-        }, 3000);
+        }, 2000);
     }
     return (
         <>
